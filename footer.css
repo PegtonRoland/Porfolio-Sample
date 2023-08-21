@@ -1,0 +1,221 @@
+.footer {
+    height: auto;
+    width: 100vw;
+    margin-top: 3rem;
+    padding: 8rem 0;
+}
+
+
+
+
+
+
+
+
+/* xs */
+@media (min-width:475px) {
+    .container {
+        max-width:475px;
+    }
+
+    .footer > h1 {
+        font-size: var(--size-2xl);
+        text-align: center;
+        font-weight: 100;
+        padding-bottom: 1.5rem;
+    }
+    
+    .footer > .row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .footer > .row > h1 {
+        font-size: var(--size-5xl);
+    }
+    
+    .footer > .row > .fright {
+        width: 40%;
+    }
+    
+    /* .footer > .row > .fright > ul {
+        
+    } */
+    
+    .footer > .row > .fright > ul > li {
+        list-style: none;
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+    }
+    
+    .footer > .row > .fright > ul > li > a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .footer > .row > .fright > ul > li > a > i {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+}
+
+/* sm */
+@media (min-width:640px) {
+    .container {
+        max-width:640px;
+    }
+    
+    .footer > .row > .fright {
+        width: 65%;
+    }
+    
+    .footer > .row > .fright > ul {
+        display: flex;    
+    }
+    
+    .footer > .row > .fright > ul > li {
+        margin-right: 1rem;
+    }    
+}
+
+/* md */
+@media (min-width:768px) {
+    .container {
+        max-width:768px;
+    }
+
+    
+    .footer > h1 {
+        font-size: var(--size-3xl);
+        
+    }
+    
+    .footer > .row > h1 {
+        font-size: var(--size-7xl);
+    }
+    
+    .footer > .row > .fright {
+        width: 60%;
+    }
+    
+    /* .footer > .row > .fright > ul {
+
+    } */
+    
+    .footer > .row > .fright > ul > li {
+        list-style: none;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+    
+    .footer > .row > .fright > ul > li > a {
+        color: #fff;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    
+    .footer > .row > .fright > ul > li > a > i {
+        font-size: 24px;
+    }
+}
+
+/* lg */
+@media (min-width:1024px) {
+    .section {
+    margin-top: 10rem;  
+    }
+    .container {
+        max-width:1024px;
+    }
+
+    .footer > h1 {
+        font-size: var(--size-4xl);
+        text-align: center;
+        font-weight: 100;
+        padding-bottom: 1.5rem;
+    }
+    
+    .footer > .row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .footer > .row > h1 {
+        font-size: var(--size-7xl);
+    }
+    
+    /* .footer > .row > .fright {
+
+    } */
+    
+    .footer > .row > .fright > ul {
+        margin-left: 7rem;
+    }
+    
+    .footer > .row > .fright > ul > li > a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+    
+    .footer > .row > .fright > ul > li > a > i {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+}
+
+/* xl */
+@media (min-width:1280px) {
+    .container {
+        max-width:1280px;
+    }
+
+    .footer > h1 {
+        font-size: var(--size-4xl);
+        text-align: center;
+        font-weight: 100;
+        padding-bottom: 1.5rem;
+    }
+    
+    .footer > .row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .footer > .row > h1 {
+        font-size: var(--size-7xl);
+    }
+    
+    .footer > .row > .fright {
+        text-align: right;  
+    }
+    
+    .footer > .row > .fright > ul {
+        margin-left: 7rem;
+    }
+    
+    .footer > .row > .fright > ul > li > a {
+        color: #fff;
+        font-size: var(--size-xl);
+        text-decoration: none;
+        margin-right: 3rem;
+    }
+    
+    .footer > .row > .fright > ul > li > a > i {
+        font-size: 25px;
+        margin-right: 0.5rem;
+    }
+}
+
+/* 2xl */
+/* @media (min-width:1536px) {
+    .container {
+        max-width:1536px;
+    }
+} */

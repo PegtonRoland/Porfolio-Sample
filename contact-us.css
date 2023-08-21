@@ -1,0 +1,293 @@
+/* .contact {
+    border: 1px solid #fff;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.contactcard {
+    padding-top: 3rem;
+    position: relative;
+    height: 90%;
+    width: 80%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.contactcard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150px ;
+    height: 100%;
+    width: 15%;
+    transform: skewX(45deg);
+    background: #fff;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.contactcard:hover::before {
+    left: 150%;
+    opacity: 0.3;
+
+}
+
+.contactcard > h1 {
+    font-size: var(--size-4xl);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.contactcard > h1:hover span {
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+    transition: all ease 0.5s;
+}
+
+#input {
+    margin-bottom: 1.3rem;
+    height: 2rem;
+    width: 50vw;
+    border: none;
+    border-radius: 15px;
+    padding-left: 2.5rem;
+    font-size: 0.8rem;
+}
+
+i {
+    color: black;
+    position: absolute;
+    left: 21%;
+}
+
+#user {
+    top: 34%;
+}
+
+#phone {
+    top: 48%;
+}
+
+#mail {
+    bottom: 34.5%;
+}
+
+#submit-btn {
+    position: relative;
+    height: 2.5rem;
+    width: 7rem;
+    overflow: hidden;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.5);
+}*/
+
+
+
+
+/* xs */
+@media (min-width:475px) {
+    .container {
+        max-width:475px;
+    }
+
+    .contact {
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+    
+    .contactcard {
+        padding-top: 3rem;
+        position: relative;
+        height: 80%;
+        width: 80%;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+    }
+    
+    .contactcard::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -150px ;
+        height: 100%;
+        width: 15%;
+        transform: skewX(45deg);
+        background: #fff;
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+    
+    .contactcard:hover::before {
+        left: 150%;
+        opacity: 0.3;
+    
+    }
+    
+    .contactcard > h1 {
+        font-size: var(--size-4xl);
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+    
+    .contactcard > h1:hover span {
+        text-shadow: 0px 0px 15px rgb(255, 255, 255);
+        transition: all ease 0.5s;
+    }
+    
+    #input {
+        margin-bottom: 1.3rem;
+        height: 2rem;
+        width: 50vw;
+        border: none;
+        border-radius: 15px;
+        padding-left: 2.5rem;
+        font-size: 0.8rem;
+        background: rgba(255, 255, 255, 0.5);
+    }
+    
+    #submit-btn {
+        position: relative;
+        height: 2.5rem;
+        width: 7rem;
+        overflow: hidden;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.5);
+        opacity: 0.3;
+        transition: all ease 0.5s;
+    }
+
+    #submit-btn:hover {
+        opacity: 1;
+    }
+    
+}
+
+/* sm */
+@media (min-width:640px) {
+    .container {
+        max-width:640px;
+    }
+    
+    .contactcard::before {
+        width: 20%;   
+    }
+    
+    #input {
+        height: 2.5rem;
+        font-size: 0.9rem;
+    }
+    
+    #submit-btn {
+        height: 2.5rem;
+        width: 8rem;
+    }
+}
+
+/* md */
+@media (min-width:768px) {
+    .container {
+        max-width:768px;
+    }
+ 
+    .contactcard::before {
+        width: 20%;   
+    }
+    
+    #input {
+        height: 2.5rem;
+        font-size: 0.9rem;
+    }
+    
+    #submit-btn {
+        height: 2.5rem;
+        width: 8rem;
+    }
+}
+
+/* lg */
+@media (min-width:1024px) {
+    .section {
+    margin-top: 5rem;  
+    }
+    .container {
+        max-width:1024px;
+    } 
+
+    
+    .contactcard {
+        width: 70%;
+        height: 65vh;
+    }
+    
+    .contactcard::before {
+        width: 25%;
+    }
+    
+    .contactcard > h1 {
+        font-size: var(--size-5xl);
+    }
+    
+    #input {
+        height: 2.5rem;
+        width: 40vw;
+    }
+    
+    #submit-btn {
+        height: 3rem;
+        width: 9rem;
+    }
+}
+
+/* xl */
+@media (min-width:1280px) {
+    .container {
+        max-width:1280px;
+    }
+
+    .contact {
+        height: 90vh;
+    }
+
+    .contactcard {
+        height: 95%;
+        width: 70%;
+    }
+    
+    .contactcard::before {
+        width: 25%;
+    }
+    
+    .contactcard > h1 {
+        font-size: var(--size-6xl);
+    }
+    
+    #input {
+        padding-left: 3.5rem;
+        font-size: 1rem;
+        height: 3.5rem;
+        width: 40vw;
+    }
+    
+    #submit-btn {
+        margin-top: 2rem;
+        height: 3rem;
+        width: 11rem;
+        font-size: 1.2rem;
+    }
+}
+
+/* 2xl */
+/* @media (min-width:1536px) {
+    .container {
+        max-width:1536px;
+    }
+} */

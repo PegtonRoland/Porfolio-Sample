@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+/* sizes */
+:root {
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Gilroy;
+    background-image: linear-gradient(30deg, crimson , rgba(0, 0, 131, 0.701) , purple, skyblue  );
+    color: #fff;
+}
+
+#span {
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+hr {
+    
+    width: 100vw;
+}
+
+/* ---------------custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 0.4rem;
+    transition: all ease 0.5s;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(225, 225, 255, 0.2); 
+    border-radius: 10px;
+}
